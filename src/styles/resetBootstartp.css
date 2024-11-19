@@ -1,0 +1,54 @@
+/* btns  */
+
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    box-shadow: inherit;
+}
+
+
+.btn {
+    border: none;
+    font-family: "TT Phobos Trial";
+    font-weight: 600;
+    border-radius: 200px;
+
+    .btn:is(:active, :focus-visible, :hover) {
+        background-color: var(--color-primary);
+        color: var(--color-text);
+        box-shadow: inherit;
+    }
+}
+
+.btn.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+
+    &:is(:hover) {
+        background-color: var(--color-primary);
+        color: var(--color-text);
+    }
+}
+
+.btn.btn-outline-primary {
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+
+    &:is(:hover) {
+        background-color: var(--color-primary);
+        color: var(--color-text);
+    }
+}
+
+
+/* navbar mobile  */
+
+.navbar-nav {
+    flex-direction: row;
+    @media (max-width: 575px) {
+        justify-content: space-around;
+    }
+}

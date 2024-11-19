@@ -1,0 +1,10 @@
+header {
+    z-index: 10;
+    padding-block: 8px;
+
+    .headerRow {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+}

@@ -1,0 +1,11 @@
+.heading {
+    padding-block-end: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--color-primary);
+    text-align: center;
+
+    @media (min-width: 768px) {
+        font-size: 80px;
+    }
+}
