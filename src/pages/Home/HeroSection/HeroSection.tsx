@@ -29,7 +29,7 @@ const HeroSection = () => {
               <h3 className={subTitle}>I am Abdalla</h3>
               <h2 className={title}>Web Developer & UI&UX Designer</h2>
               <div className={`${heroImg} ${mobile}`}>
-                <img src="../../../../src/assets/img/me.png" alt="" />
+                <img src="/public/me.png" alt="" />
               </div>
               <p className={tale}>
                 I create responsive websites with clean code and user-focused
