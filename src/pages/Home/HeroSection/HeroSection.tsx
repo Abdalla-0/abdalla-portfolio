@@ -70,7 +70,7 @@ const HeroSection = () => {
           <Col lg={6}>
             <div className={heroEnd}>
               <div className={heroImg}>
-                <img src="../../../../src/assets/img/me.png" alt="" />
+                <img src="/public/me.png" alt="" />
               </div>
             </div>
           </Col>
