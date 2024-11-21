@@ -7,8 +7,11 @@ type TResponse = TProject[];
 const actGetProjects = createAsyncThunk('projects/actGetProjects', async (_, thunkAPI) => {
     const { rejectWithValue, signal } = thunkAPI;
     try {
-        const response = await axios.get<TResponse>(`/projects`, {signal});        
+        const response = await axios.get<TResponse>(`/api/projects.json`, {signal});  
+        console.log(response.data);      
         return response.data;
+        
+        
     } catch (error) {
         return rejectWithValue(axiosError(error))
     }

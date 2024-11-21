@@ -2,26 +2,26 @@
   "projects": [
     {
       "id": 1,
-      "img": "http://localhost:5173/src/assets/img/e-commerce.png",
+      "img": "/img/projects/e-commerce.png",
       "title": "Eccomerce",
       "description": "Your one-stop shop for quality products, exclusive deals, and seamless online shopping"
     },
     {
       "id": 2,
-      "img": "http://localhost:5173/src/assets/img/drinks.png",
+      "img": "/img/projects/drinks.png",
       "title": "How to make drinks",
       "description": "Discover unique recipes, mixology tips, and the art of crafting perfect drinks for every occasion"
     },
     {
       "id": 3,
-      "img": "http://localhost:5173/src/assets/img/sweet.png",
+      "img": "/img/projects/sweet.png",
       "title": "How to make desert",
       "description": "Indulge in delicious dessert recipes, baking tips, and sweet inspiration for every occasion"
     },
     {
       "id": 4,
       "title": "Safety Code",
-      "img": "http://localhost:5173/src/assets/img/programming.png",
+      "img": "/img/projects/programming.png",
       "description": "Professional programming solutions tailored to elevate your business with custom development, expert consulting, and innovative technology"
     }
   ],

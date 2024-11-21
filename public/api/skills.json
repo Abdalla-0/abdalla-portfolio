@@ -1,0 +1,27 @@
+{
+    "skills": [
+        {
+          "img": "/skills/img/figma.png",
+          "title": "Figma"
+        },
+        { "img": "/skills/img/html.png", "title": "HTML" },
+        { "img": "/skills/img/css.png", "title": "CSS" },
+        { "img": "/skills/img/sass.png", "title": "SASS" },
+        {
+          "img": "/skills/img/js.png",
+          "title": "JavaScript"
+        },
+        {
+          "img": "/skills/img/react.png",
+          "title": "React"
+        },
+        {
+          "img": "/skills/img/ts.png",
+          "title": "TypeScript"
+        },
+        {
+          "img": "/skills/img/blade.png",
+          "title": "Laravel"
+        }
+      ]
+}
